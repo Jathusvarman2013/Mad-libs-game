@@ -1,0 +1,46 @@
+def mad_libs():
+    # Define the story template with placeholders
+    story_template = """
+    Today I went to the zoo. I saw a(n) {adjective1} {noun1} jumping up and down in its tree. 
+    It {verb1} {adverb} through the large tunnel that led to its {adjective2} {noun2}. 
+    I got some peanuts and passed them through the {noun3} to a gigantic gray {noun4} 
+    towering above my head. 
+    Furry {noun4} {verb2} and {verb3} the peanuts. 
+    I just couldn’t believe my eyes! 
+    There was a {adjective3} {noun5} feeding on the {noun6} with a {adjective4} {noun7}. 
+    I had the best day ever at the zoo!
+    """
+
+    # Get user inputs
+    adjective1 = input("Enter an adjective: ")
+    noun1 = input("Enter a noun: ")
+    verb1 = input("Enter a verb: ")
+    adverb = input("Enter an adverb: ")
+    adjective2 = input("Enter another adjective: ")
+    noun2 = input("Enter another noun: ")
+    noun3 = input("Enter another noun: ")
+    noun4 = input("Enter another noun: ")
+    verb2 = input("Enter another verb: ")
+    verb3 = input("Enter another verb: ")
+    adjective3 = input("Enter another adjective: ")
+    noun5 = input("Enter another noun: ")
+    noun6 = input("Enter another noun: ")
+    adjective4 = input("Enter another adjective: ")
+    noun7 = input("Enter another noun: ")
+
+    # Fill in the template with user inputs
+    story = story_template.format(
+        adjective1=adjective1,
+        noun1=noun1,
+        verb1=verb1,
+        adverb=adverb,
+        adjective2=adjective2,
+        noun2=noun2,
+        noun3=noun3,
+        noun4=noun4,
+        verb2=verb2,
+        verb3=verb3,
+        adjective3=adjective3,
+        noun5=noun5,
+        noun6=noun6,
+        adjective4=
